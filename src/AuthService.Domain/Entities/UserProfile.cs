@@ -14,12 +14,15 @@ public class UserProfile
     [ForeignKey(nameof(User))]
     public string UserId { get; set; } = string.Empty;
 
-    public string? ProfilePictureUrl { get; set; }
+    // Cambia ProfilePictureUrl por ProfilePicture para que coincida con el servicio
+    public string? ProfilePicture { get; set; } 
+
+    // Agrega esta propiedad que el servicio está pidiendo
+    public string? Phone { get; set; } 
 
     public string? Bio { get; set; }
 
     public DateTime? DateOfBirth { get; set; }
 
-    // Relación
     public User User { get; set; } = null!;
 }

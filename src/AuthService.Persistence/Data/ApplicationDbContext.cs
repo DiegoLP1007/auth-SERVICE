@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 namespace AuthService.Persistence.Data;
 
 public class ApplicationDbContext : DbContext
-{ // <-- Faltaba esta llave
+{ 
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
         : base(options)
     {
