@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a3ivoL3cGYE=",
+  "dgSpecHash": "84WU4hBLGcQ=",
   "success": true,
-  "projectFilePath": "C:\\2021382\\auth-SERVICE\\src\\AuthService.Domain\\AuthService.Domain.csproj",
+  "projectFilePath": "C:\\2021382\\KinalSports\\auth-SERVICE\\src\\AuthService.Domain\\AuthService.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Informatica\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\Informatica\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.24\\microsoft.netcore.app.ref.8.0.24.nupkg.sha512",

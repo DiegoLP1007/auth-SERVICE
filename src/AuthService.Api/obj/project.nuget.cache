@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1+ILd6H0p+I=",
+  "dgSpecHash": "m+97UKLxSHA=",
   "success": true,
-  "projectFilePath": "C:\\2021382\\auth-SERVICE\\src\\AuthService.Api\\AuthService.Api.csproj",
+  "projectFilePath": "C:\\2021382\\KinalSports\\auth-SERVICE\\src\\AuthService.Api\\AuthService.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Informatica\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
     "C:\\Users\\Informatica\\.nuget\\packages\\cloudinarydotnet\\1.28.0\\cloudinarydotnet.1.28.0.nupkg.sha512",
@@ -137,10 +137,10 @@
     "C:\\Users\\Informatica\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\Informatica\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512",
     "C:\\Users\\Informatica\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
-    "C:\\Users\\Informatica\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.24\\microsoft.aspnetcore.app.ref.8.0.24.nupkg.sha512",
-    "C:\\Users\\Informatica\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.24\\microsoft.netcore.app.host.win-x64.8.0.24.nupkg.sha512",
     "C:\\Users\\Informatica\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.24\\microsoft.netcore.app.ref.8.0.24.nupkg.sha512",
-    "C:\\Users\\Informatica\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.24\\microsoft.windowsdesktop.app.ref.8.0.24.nupkg.sha512"
+    "C:\\Users\\Informatica\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.24\\microsoft.windowsdesktop.app.ref.8.0.24.nupkg.sha512",
+    "C:\\Users\\Informatica\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.24\\microsoft.aspnetcore.app.ref.8.0.24.nupkg.sha512",
+    "C:\\Users\\Informatica\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.24\\microsoft.netcore.app.host.win-x64.8.0.24.nupkg.sha512"
   ],
   "logs": []
 }
