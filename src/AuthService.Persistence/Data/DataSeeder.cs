@@ -35,6 +35,8 @@ public static class DataSeeder
             var adminRole = await context.Roles.FirstOrDefaultAsync(r => r.Name == RoleConstants.ADMIN_ROLE);
             if (adminRole != null)
             {
+                var passwordHasher = new PasswordHashService();
+
                 var userId = UuidGenerator.GenerateUserId();
                 var profileId = UuidGenerator.GenerateUserId();
                 var emailId = UuidGenerator.GenerateUserId();
@@ -47,7 +49,7 @@ public static class DataSeeder
                     Surname = "User",
                     Username = "admin",
                     Email = "admin@ksports.local",
-                    Password = "12345678", // Considera usar un hash en el futuro
+                    Password = passwordHasher.HashPassword("Admin1234"), // Considera usar un hash en el futuro
                     Status = true,
                     UserProfile = new UserProfile
                     {
